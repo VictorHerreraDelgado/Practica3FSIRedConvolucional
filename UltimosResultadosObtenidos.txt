@@ -1,0 +1,42 @@
+Found 6379 images belonging to 16 classes.
+Found 6309 images belonging to 16 classes.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Epoch 1/15
+200/200 [==============================] - 3417s 17s/step - loss: 1.8790 - acc: 0.3750 - val_loss: 1.0786 - val_acc: 0.6311
+Epoch 2/15
+200/200 [==============================] - 655s 3s/step - loss: 1.3444 - acc: 0.5214 - val_loss: 0.7281 - val_acc: 0.7434
+Epoch 3/15
+200/200 [==============================] - 98s 489ms/step - loss: 1.1258 - acc: 0.6058 - val_loss: 0.6218 - val_acc: 0.7818
+Epoch 4/15
+200/200 [==============================] - 95s 475ms/step - loss: 0.9505 - acc: 0.6704 - val_loss: 0.4762 - val_acc: 0.8292
+Epoch 5/15
+200/200 [==============================] - 97s 483ms/step - loss: 0.8423 - acc: 0.7160 - val_loss: 0.4060 - val_acc: 0.8632
+Epoch 6/15
+200/200 [==============================] - 96s 481ms/step - loss: 0.7502 - acc: 0.7402 - val_loss: 0.3391 - val_acc: 0.8973
+Epoch 7/15
+200/200 [==============================] - 96s 478ms/step - loss: 0.6196 - acc: 0.7839 - val_loss: 0.2647 - val_acc: 0.9046
+Epoch 8/15
+200/200 [==============================] - 97s 483ms/step - loss: 0.5937 - acc: 0.7917 - val_loss: 0.2231 - val_acc: 0.9205
+Epoch 9/15
+200/200 [==============================] - 98s 491ms/step - loss: 0.4928 - acc: 0.8230 - val_loss: 0.2279 - val_acc: 0.9234
+Epoch 10/15
+200/200 [==============================] - 95s 476ms/step - loss: 0.4594 - acc: 0.8357 - val_loss: 0.1675 - val_acc: 0.9450
+Epoch 11/15
+200/200 [==============================] - 95s 477ms/step - loss: 0.3973 - acc: 0.8630 - val_loss: 0.1829 - val_acc: 0.9417
+Epoch 12/15
+200/200 [==============================] - 98s 488ms/step - loss: 0.3476 - acc: 0.8755 - val_loss: 0.1251 - val_acc: 0.9583
+Epoch 13/15
+200/200 [==============================] - 97s 483ms/step - loss: 0.3342 - acc: 0.8835 - val_loss: 0.1100 - val_acc: 0.9656
+Epoch 14/15
+200/200 [==============================] - 95s 477ms/step - loss: 0.3027 - acc: 0.8957 - val_loss: 0.0911 - val_acc: 0.9737
+Epoch 15/15
+200/200 [==============================] - 96s 481ms/step - loss: 0.2638 - acc: 0.9102 - val_loss: 0.1323 - val_acc: 0.9595
+<keras.callbacks.History at 0x7f5e2b9b6860>
